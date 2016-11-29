@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<title>看你有多色</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div id="game" class="center">
+
+</div>
+
+<div id="mark" class="center">
+	<div id="startGame" class="center">开始(60s)</div>
+	<div id="set">
+		<h1>设置</h1>
+		<p>时间(10s-100s)<input type="range" max="100" min="10" id="_time" value="60" step="1">默认60s</p>
+		<p>格子之间的距离(1-10)<input type="range" max="10" min="1" id="borderWidth" value="5" step="1">默认5px</p>
+		<p>格子的最大边数(5-15)<input type="range" max="15" min="5" id="maxsideNum" value="9" step="1">默认9</p>
+		<p>我设置了100关，透明度从0-1</p>
+	</div>
+</div>
+<div id="time">0</div>
+
+<script src="js/support.js"></script>
+</body>
+</html>
